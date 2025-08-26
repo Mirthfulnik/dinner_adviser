@@ -1057,7 +1057,7 @@ body {
   /* Фоновое изображение с затемняющим оверлеем для лучшей читаемости */
   background-image:
     linear-gradient(rgba(var(--color-slate-900-rgb), 0.4), rgba(var(--color-slate-900-rgb), 0.4)),
-    url('./d45d1c12-2d05-4ab4-9021-1c85a3bf1628.jpg');
+    url('./d45d1c12-2d05-4ab4-9021-1c85a3bf1628.png');
     
   background-size: cover;
   background-position: center;
