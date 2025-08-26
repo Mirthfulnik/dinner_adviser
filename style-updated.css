@@ -1168,7 +1168,7 @@ a:hover {
 .recipe-emoji {
   font-size: 2rem;
   margin-top: var(--space-8);
-  margin-bottom: var(--space-20);
+  margin-bottom: var(--space-40);
   text-align: center;
   user-select: none;
   line-height: 1;
