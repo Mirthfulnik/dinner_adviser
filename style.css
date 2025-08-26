@@ -311,12 +311,30 @@ html {
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+
+  /* Фоновое изображение и затемнённый оверлей */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./d45d1c12-2d05-4ab4-9021-1c85a3bf1628.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: var(--font-family-base);
+  color: var(--color-text);
+  overflow-x: hidden;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+/* Ваши остальные стили остаются без изменений, например */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /* Typography */
