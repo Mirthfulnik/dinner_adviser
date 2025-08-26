@@ -1166,7 +1166,7 @@ a:hover {
 
 /* Новый стиль для эмодзи под названием */
 .recipe-emoji {
-  font-size: 2rem;
+  font-size: 5rem;
   margin-top: var(--space-8);
   margin-bottom: var(--space-40);
   text-align: center;
