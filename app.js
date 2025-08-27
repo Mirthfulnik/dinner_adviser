@@ -89,6 +89,13 @@ function displayRecipe(recipe) {
   recipeResult.classList.remove('hidden');
   recipeResult.classList.add('show');
 
+  // Дрожащая анимация блока
+  const recipeCard = recipeResult.querySelector('.recipe-card');
+  recipeCard.classList.add('shake');
+  setTimeout(() => {
+    recipeCard.classList.remove('shake');
+  }, 400);
+
   // Изменяем текст кнопки после первого использования
   if (isFirstClick) {
     randomizeBtn.textContent = 'Что-то другое?';
