@@ -1340,3 +1340,18 @@ a:hover {
 .recipe-result.show {
   animation: fadeInUp var(--duration-normal) var(--ease-standard);
 }
+
+/* Эффект тряски секции с рецептом */
+@keyframes shake {
+  0%   { transform: translateX(0); }
+  15%  { transform: translateX(-6px); }
+  30%  { transform: translateX(6px); }
+  45%  { transform: translateX(-6px); }
+  60%  { transform: translateX(6px); }
+  75%  { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+.recipe-card.shake {
+  animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+}
